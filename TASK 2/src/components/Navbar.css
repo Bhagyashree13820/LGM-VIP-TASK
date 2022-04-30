@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.appnavbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background: #473cea;
+    color: white;
+}
+
+.brandname{
+    font-size: 28px;
+    text-transform: bold;
+}
+
+.nav-btn{
+  background-color: #ffffff; color: black;
+  border-radius: 20px;
+  border: none;
+  padding: 4px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px;
+  cursor: pointer;
+}
+.MuiButton-label{
+    color: black;
+    font-family: 'Nunito', sans-serif;
+}
+@media  screen and (max-width: 700px) {
+    .logo{
+        display: flex;
+        position: absolute;
+        top: 15px;
+        left: 35px;
+    }
+}
